@@ -1,0 +1,15 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation: moveRight 2s infinite alternate;
+}
+
+@keyframes moveRight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 200px;
+  }
+}
