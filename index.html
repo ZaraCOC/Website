@@ -3,7 +3,21 @@
   <head>
     <link rel="stylesheet" href="styles.css">
   </head>
-
+    <script>
+    // Create a button element
+    const button = document.createElement("button");
+  
+    // Set button text
+    button.textContent = "Click Me";
+  
+    // Add a click event
+    button.addEventListener("click", function() {
+      alert("Button clicked!");
+    });
+  
+    // Add button to the page
+    document.body.appendChild(button);
+  </script>
   <body>
     <div class="box"></div>
   </body>
